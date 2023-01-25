@@ -1,0 +1,5 @@
+- name: Copy nessus agent to ec2-user home directory
+  copy:
+    src: "{{ agent_file_src }}"
+    dest: "{{ agent_file_dest }}"
+    

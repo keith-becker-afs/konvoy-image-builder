@@ -1,0 +1,2 @@
+agent_file_src: /home/ec2-user/NessusAgent-10.3.1-es8.x86_64.rpm
+agent_file_dest: /home/ec2-user/NessusAgent-10.3.1-es8.x86_64.rpm
