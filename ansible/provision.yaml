@@ -40,4 +40,5 @@
       when: download_images
     - role: sysprep
       when: sysprep # make the finalize process skipable
+    - role: afs
   environment: "{{ default_env }}"

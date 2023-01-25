@@ -1,0 +1,4 @@
+- name: "Setup Nessus Cloud Init"
+  include_tasks: nessus-cloud-init.yaml
+  when:
+    - nessus_enabled
