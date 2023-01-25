@@ -9,3 +9,4 @@
       bootcmd: 
       - sudo /bin/systemctl start nessusagent.service
       - sudo /opt/nessus_agent/sbin/nessuscli agent link --key={{ nessus_key }} --groups="{{ nessus_groups }}" --host="{{ nessus_host }}" --port={{ nessus_port }}
+
