@@ -1,5 +1,10 @@
+- name: Copy nessus agent to ec2-user home directory
+  copy:
+    src: "{{ agent_file_src }}"
+    dest: "{{ agent_file_dest }}"
+
 - name: Install Nessus rpm
-  command: sudo rpm -ivh {{ remote_src_rpm_location }} 
+  command: sudo rpm -ivh {{ agent_file_dest }} 
 
 - name: Append bootcmd to cloud.cfg
   blockinfile:

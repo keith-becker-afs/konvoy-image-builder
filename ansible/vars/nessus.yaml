@@ -3,4 +3,6 @@ nessus_key: 4e19c807e62a70185ff6d4b8e5a68c802c91fb2d2ff98b51233c9fadb5a16bda
 nessus_groups: Linux
 nessus_host: 3.30.77.36
 nessus_port: 8834
-remote_src_rpm_location: "NessusAgent-10.3.1-es8.x86_64.rpm"
+agent_file_src: /home/ec2-user/NessusAgent-10.3.1-es8.x86_64.rpm
+agent_file_dest: /home/ec2-user/NessusAgent-10.3.1-es8.x86_64.rpm
+nessus_enabled: true
