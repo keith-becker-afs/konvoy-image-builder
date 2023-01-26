@@ -1,0 +1,8 @@
+
+nessus_key: ""
+nessus_groups: ""
+nessus_host: ""
+nessus_port: ""
+agent_file_src: ""
+agent_file_dest: ""
+nessus_enabled: true
